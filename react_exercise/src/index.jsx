@@ -1,4 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ComponentClass from './component'
 
-ReactDOM.render(<h1>Hello sydney</h1>, document.getElementById('app'));
+ReactDOM.render(
+    <ComponentClass initialValue={10} label="Component"/>
+    , document.getElementById('app'));
